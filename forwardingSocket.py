@@ -1,14 +1,14 @@
 import socket
-serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serv.bind(('0.0.0.0', 6789))
-serv.listen(5)
+ais_serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ais_serv.bind(('103.28.13.218', 2101))
+ais_serv.listen(5)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('0.0.0.0', 1234))
-s.listen(5)
+ais_fwd1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ais_fwd1.bind(('103.28.13.218', 1234))
+ais_fwd1.listen(5)
 while True:
-    conn, addr = serv.accept()
-    conns, addrs = s.accept()
+    conn, addr = ais_serv.accept()
+    conn1, addr1 = ais_fwd1.accept()
     from_client = ''
     while True:
         data = conn.recv(4096)
@@ -16,7 +16,7 @@ while True:
         from_client += data
         print (from_client)
         conn.send(data)
-        conns.send(data)
+        conn1.send(data)
     conn.close()
-    conns.close()
+    conn1.close()
     print ('client disconnected')
