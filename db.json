@@ -12,20 +12,6 @@
       "IMO": 0,
       "NAME": "DELTA CAKRA 1",
       "CALLSIGN": "YDA4951",
-    },
-    {
-      "MMSI": 525018078,
-      "TIMESTAMP": "2019-09-08 17:57:40 UTC",
-      "LATITUDE": -3.81282,
-      "LONGITUDE": 122.48814,
-      "COURSE": 277.9,
-      "SPEED": 4.8,
-      "HEADING": 511,
-      "NAVSTAT": 15,
-      "IMO": 0,
-      "NAME": "TB SPGM 05",
-      "CALLSIGN": "YDA3237",
-      "TYPE": 37,
     }
   ],
   "profile": {
