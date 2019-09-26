@@ -1,17 +1,8 @@
 {
-    "posts": [
+  "posts": [
     {
-      "MMSI": 525018177,
-      "TIMESTAMP": "2019-08-31 08:42:28 UTC",
-      "LATITUDE": -3.81348,
-      "LONGITUDE": 122.48539,
-      "COURSE": 236.1,
-      "SPEED": 1.9,
-      "HEADING": 511,
-      "NAVSTAT": 15,
-      "IMO": 0,
-      "NAME": "DELTA CAKRA 1",
-      "CALLSIGN": "YDA4951",
+      "id": 1,
+      "title": "hello"
     }
   ],
   "profile": {
