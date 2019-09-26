@@ -13,15 +13,6 @@
       "NAME": "DAYA 28",
       "CALLSIGN": "YDA3950",
       "TYPE": 52,
-      "A": 4,
-      "B": 25,
-      "C": 1,
-      "D": 7,
-      "DRAUGHT": 2.8,
-      "DESTINATION": "MOROSI",
-      "ETA_AIS": "04-03 09:00",
-      "ETA": "2019-04-03 09:00:00",
-      "SRC": "TER"
     }
   ],
   "profile": {
