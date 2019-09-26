@@ -1,56 +1,6 @@
 [
   {
     "AIS": {
-      "MMSI": 525018177,
-      "TIMESTAMP": "2019-08-31 08:42:28 UTC",
-      "LATITUDE": -3.81348,
-      "LONGITUDE": 122.48539,
-      "COURSE": 236.1,
-      "SPEED": 1.9,
-      "HEADING": 511,
-      "NAVSTAT": 15,
-      "IMO": 0,
-      "NAME": "DELTA CAKRA 1",
-      "CALLSIGN": "YDA4951",
-      "TYPE": 52,
-      "A": 17,
-      "B": 5,
-      "C": 4,
-      "D": 3,
-      "DRAUGHT": 0,
-      "DESTINATION": "",
-      "ETA_AIS": "00-00 24:60",
-      "ETA": "",
-      "SRC": "TER"
-    }
-  },
-  {
-    "AIS": {
-      "MMSI": 525018078,
-      "TIMESTAMP": "2019-09-08 17:57:40 UTC",
-      "LATITUDE": -3.81282,
-      "LONGITUDE": 122.48814,
-      "COURSE": 277.9,
-      "SPEED": 4.8,
-      "HEADING": 511,
-      "NAVSTAT": 15,
-      "IMO": 0,
-      "NAME": "TB SPGM 05",
-      "CALLSIGN": "YDA3237",
-      "TYPE": 37,
-      "A": 0,
-      "B": 0,
-      "C": 0,
-      "D": 0,
-      "DRAUGHT": 0,
-      "DESTINATION": "",
-      "ETA_AIS": "00-00 24:60",
-      "ETA": "",
-      "SRC": "TER"
-    }
-  },
-  {
-    "AIS": {
       "MMSI": 525300086,
       "TIMESTAMP": "2019-09-26 16:49:49 UTC",
       "LATITUDE": -3.8231,
